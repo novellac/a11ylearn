@@ -6,8 +6,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Learn about desserts</title>
     <style>
-      a:focus {
-        outline: none;
+      a:hover {
+        color: oklch(51.8% 0.253 323.949);
+      }
+      a:active {
+        outline: 2px solid oklch(45.2% 0.211 324.591);
       }
     </style>
   </head>
@@ -165,7 +168,7 @@
         </p>
 
         <ul class="flex justify-evenly gap-4 flex-wrap">
-          <li class="shadow-pink-200 shadow-md rounded-3xl md:basis-1/4 grow">
+          <li class="shadow-pink-200 hover:shadow-pink-600 shadow-md rounded-3xl md:basis-1/4 grow">
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://tscpl.org/wp-content/uploads/2015/04/cookiehero.png.png"
@@ -180,7 +183,7 @@
             </div>
           </li>
 
-          <li class="shadow-pink-200 shadow-md rounded-3xl md:basis-1/4 grow">
+          <li class="shadow-pink-200 hover:shadow-pink-600 shadow-md rounded-3xl md:basis-1/4 grow">
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://www.wayofcats.com/blog/wp-content/uploads/2009/10/ifixedit.jpg"
@@ -195,7 +198,7 @@
             </div>
           </li>
 
-          <li class="shadow-pink-200 shadow-md rounded-3xl md:basis-1/4 grow">
+          <li class="shadow-pink-200 hover:shadow-pink-600 shadow-md rounded-3xl md:basis-1/4 grow">
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://lvphotoblog.com/wp-content/uploads/2021/01/baking-fail.jpg"
